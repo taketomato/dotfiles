@@ -1,0 +1,37 @@
+# alias file
+alias cal='cat ~/.alias'
+alias val='vi ~/.alias'
+alias sal='source ~/.alias'
+
+# git
+alias gs='git status'
+alias gb='git branch'
+alias gd='git diff'
+
+alias gw='git switch'
+alias gwc='git switch -c'
+alias gwd='git switch develop'
+alias gwm='git switch main'
+alias gwp='git switch production'
+alias gwr='git switch release'
+
+alias gr='git restore'
+
+alias gl='git log --graph --decorate=full --color --abbrev-commit'
+alias glo='git log --oneline'
+alias gf='git fetch'
+alias gp='git pull'
+alias gsp='git stash pop'
+alias gst='git stash'
+
+## push origin
+alias tb='git symbolic-ref --short HEAD'
+alias gpo='git push origin $(tb)'
+
+# change directory
+alias dev='cd ~/Documents/dev'
+alias rsi='cd ~/Documents/dev/rsi'
+alias theta_update='/Applications/RICOH\ THETA.app/Contents/Resources/tools/thetaupdater/ThetaUpdaterForMac.app/Contents/MacOS/ThetaUpdaterForMac UPDATE '
+
+# tools
+alias xmp='exiftool -b -xmp'
