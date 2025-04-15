@@ -12,6 +12,7 @@ alias gw='git switch'
 alias gwc='git switch -c'
 alias gwd='git switch develop'
 alias gwm='git switch main'
+alias gwms='git switch master'
 alias gwp='git switch production'
 alias gwr='git switch release'
 
