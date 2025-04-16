@@ -7,5 +7,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # source
 source ~/.alias
 
+# rbenv の初期化
+eval "$(rbenv init -)"
+
 # export
 export PATH=/usr/local/bin/git:$PATH # HomebrewのGitを使うパス
