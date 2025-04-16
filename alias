@@ -38,3 +38,4 @@ alias theta_update='/Applications/RICOH\ THETA.app/Contents/Resources/tools/thet
 
 # tools
 alias xmp='exiftool -b -xmp'
+alias python='python3'
