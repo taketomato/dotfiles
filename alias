@@ -32,6 +32,7 @@ alias tb='git symbolic-ref --short HEAD'
 alias gpo='git push origin $(tb)'
 
 # change directory
+alias dotfiles='cd ~/Documents/dev/dotfiles'
 alias dev='cd ~/Documents/dev'
 alias rsi='cd ~/Documents/dev/rsi'
 alias theta_update='/Applications/RICOH\ THETA.app/Contents/Resources/tools/thetaupdater/ThetaUpdaterForMac.app/Contents/MacOS/ThetaUpdaterForMac UPDATE '
